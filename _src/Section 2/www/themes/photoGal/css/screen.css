@@ -1,0 +1,32 @@
+/* 
+    Document   : screen
+    Created on : 15-Feb-2013, 10:09:54
+    Author     : chris
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+div.view {
+    width: 185px;
+    float:left;
+    background: #F7F7F7;
+    margin-right: 20px;
+    min-height: 175px;
+    position: relative;
+}
+.imgWrap {
+    width: 100%;
+    margin:0 auto;
+    text-align: center;
+}
+.caption {
+    display: none;
+    width: 85%;
+    margin: 0 15px;
+    height: 40px;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    background: url(../images/bg.png);
+    text-align: center;
+}
